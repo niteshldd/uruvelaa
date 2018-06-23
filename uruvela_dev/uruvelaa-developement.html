@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://www.creative-tim.com/presentation -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+<script type="text/javascript" src="./Creative Tim - Fully coded UI Tools to create web apps_files/2315e0b361"></script><script src="./Creative Tim - Fully coded UI Tools to create web apps_files/nr-1071.min.js.download"></script><script type="text/javascript" async="" src="./Creative Tim - Fully coded UI Tools to create web apps_files/ecommerce.js.download"></script><script async="" src="./Creative Tim - Fully coded UI Tools to create web apps_files/gtm.js.download"></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script async="" src="./Creative Tim - Fully coded UI Tools to create web apps_files/analytics.js.download"></script>
+<!-- 
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2315e0b361","applicationID":"9961421","transactionName":"dVwNRxYMCFtVS01CRVRfClA7EwVQVRYSQFVFVg1HBRcNWF4=","queueTime":3807,"applicationTime":8,"agent":""}</script> -->
+
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+        <link rel="apple-touch-icon" sizes="76x76" href="../Creative Tim _ Tools to build better websites_files/uruvelaa shadow -01.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../Creative Tim _ Tools to build better websites_files/uruvelaa shadow -01.png">
+        <meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Uruvelaa development </title>
+
+        <!-- Canonical SEO -->
+        <link rel="canonical" href="https://wwww.uruvelaa.com/">
+
+        <meta name="description" content="UI Kits and Dashboards for Bootstrap, Vue.js, React and Angular">
+        <meta name="keywords" content="fully coded, ui tools, bootstrap, vuejs, vue.js, react, angular, angularjs, creativetim, creative tim, bootstrap, theme, freebies, bootstrap kit, bootstrap template, free items, beautiful ui, awesome freebies,  css cards,  bootstrap wizard,  bootstrap plugin">
+        <meta property="og:title" content="Uruvelaa Development - We commited to Community to create secure application with better user interfaces">
+        <meta property="og:url" content="https://www.uruvelaa.com/">
+        <meta property="og:image" content="/assets/presentation-page/img/social_image.jpg">
+        <meta property="og:description" content="UI Kits and Dashboards for Bootstrap, Vue.js, React and Angular">
+        <meta property="twitter:card" content="summary">
+        <meta property="twitter:url" content="https://www.uruvelaa.com/">
+        <meta property="twitter:title" content="Uruvelaa Development - We commited to Community to create secure application with better user interfaces">
+        <meta property="twitter:description" content="UI Kits and Dashboards for Bootstrap, Vue.js, React and Angular">
+        <meta property="twitter:image" content="/assets/presentation-page/img/social_image.jpg">
+        <meta property="twitter:domain" content="https://www.uruvelaa.com/">
+        <meta property="twitter:site" content="@Uruvelaa Solutions">
+        <meta property="twitter:creator" content="@Uruvelaa Solutions">
+
+        <link href="./Creative Tim - Fully coded UI Tools to create web apps_files/bootstrap.min.css" rel="stylesheet">
+        <link href="./Creative Tim - Fully coded UI Tools to create web apps_files/gsdk.css" rel="stylesheet">
+        <link href="./Creative Tim - Fully coded UI Tools to create web apps_files/new-css.css" rel="stylesheet">
+
+        <!--     Fonts and icons     -->
+        <link href="./Creative Tim - Fully coded UI Tools to create web apps_files/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./Creative Tim - Fully coded UI Tools to create web apps_files/icons.css">
+
+      	
+<!-- Google Analytics New -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // On the Origin Domain
+  try {
+      ga('create', 'UA-46172202-1', 'auto', {'allowLinker': true});
+  } catch (e) {
+      console.log("Google error");
+  }
+  try {
+      ga('require', 'linker');
+  } catch (e) {
+      console.log("Google error");
+  }
+  try {
+      ga('require', 'ecommerce');
+  } catch (e) {
+      console.log("Google error");
+  }
+  try {
+      ga('linker:autoLink', ['uruvelaa.com','uruvelaa.com']);    // Domains that are linked from this page.
+  } catch (e) {
+      console.log("Google error");
+  }
+  try {
+      ga('send', 'pageview');                         // Send hits after initializing the auto-linker plug-in.
+  } catch (e) {
+      console.log("Google error");
+  }
+
+
+</script>
+<!-- End Google Analytics -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+try{
+	fbq('init', '111649226022273');
+	fbq('track', "PageView");
+
+}catch(err) {
+	console.log('Facebook Track Error:', err);
+}
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=111649226022273&ev=PageView&noscript=1"
+/></noscript>
+
+<!-- End Facebook Pixel Code -->
+
+<!-- Hotjar Tracking Code for www.creative-tim.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:99526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script><script async="" src="./Creative Tim - Fully coded UI Tools to create web apps_files/hotjar-99526.js.download"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
+<!-- End Google Tag Manager -->
+
+
+
+    <link type="text/css" rel="stylesheet" href="chrome-extension://pioclpoplcdbaefihamjohnefbikjilc/content.css"><script async="" src="./Creative Tim - Fully coded UI Tools to create web apps_files/modules-0db0f4893a41f570b85a1147d48f9d7f.js.download"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head>
+
+    <body >
+        <nav class="navbar navbar-default navbar-fixed-top navbar-transparent " role="navigation-demo"   >
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-default2">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a target="_blank" href="https://www.uruvelaa.com" class="navbar-brand text">
+				<img src="../Creative Tim _ Tools to build better websites_files/uruvelaa shadow -01.png" width="150px" align="right" alt="" srcset=""    >
+				</a>
+		</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="navigation-default2">
+
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown dropdown-with-icons">
+					<!-- dropdown -->
+					<!-- <a href="https://www.creative-tim.com/presentation#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+						Our products
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li>
+							<a href="https://www.creative-tim.com/bootstrap-themes?ref=new-presentation-page">
+								<span class="logo">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/bootstrap.jpg" alt="">
+								</span>
+								<span class="text"><b>Bootstrap</b> Frameworks</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.creative-tim.com/bootstrap-themes/vuejs-themes?ref=new-presentation-page">
+								<span class="logo">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/vue.jpg" alt="">
+								</span>
+								<span class="text"><b>Vue.js</b> Frameworks</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.creative-tim.com/bootstrap-themes/react-themes?ref=new-presentation-page">
+								<span class="logo">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/react.jpg" alt="">
+								</span>
+								<span class="text"><b>React</b> Frameworks</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.creative-tim.com/bootstrap-themes/angular-themes?ref=new-presentation-page">
+								<span class="logo">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/angular.jpg" alt="">
+								</span>
+								<span class="text"><b>Angular</b> Frameworks</span>
+							</a>
+						</li>
+					</ul> -->
+		</li>
+							
+				</li>
+				<li>
+					<a class="nav-link social btn-facebook" href="https://www.uruvelaa.com/#whoWeAre" target="_blank">
+						About
+					</a>
+				</li>
+				<li>
+					<a class="nav-link social btn-instagram" href="https://www.uruvelaa.com/#workflow" target="_blank" style="color: black" >
+						What We Do 
+					</a>
+				</li>
+				<li>
+					<a class="nav-link social btn-twitter" href="https://www.uruvelaa.com/#uitools" target="_blank">
+						Uruvelaa learning
+					</a>
+				</li>
+				<li>
+					<a class="nav-link social btn-dribbble" href="https://www.uruvelaa.com/#contact" target="_blank">
+						Contact-us
+					</a>
+				</li>
+
+			 </ul>
+
+		</div><!-- /.navbar-collapse-->
+			
+	</div> 
+	<!-- /.container-fluid -->
+ </nav>
+
+<div class="wrapper">
+	<div class="section section-header">
+		<div class="points">
+			<div class="point point-floating-1"></div>
+			<div class="point point-floating-2"></div>
+			<div class="point point-floating-3"></div>
+			<div class="point point-floating-4"></div>
+			<div class="point point-floating-5"></div>
+			<div class="point point-floating-6"></div>
+			<div class="point point-floating-7"></div>
+			<div class="point point-floating-8"></div>
+			<div class="point point-floating-9"></div>
+		</div>
+		 <div class="container">
+			 <div class="row">
+				 <div class="col-md-6 text-left col-z-index">
+							<h1 class="title">Uruvelaa Development</h1>
+							<h4 class="desc">Creating beautiful digital products engineered to drive growth for the world’s leading brands.</h4>
+					</div>
+					<div class="col-md-6">
+							<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/illustration.jpg" class="illustration">
+					</div>
+				</div>
+			</div>
+			<div class="space-110"></div>
+			<div class="card card-plain">
+				<div class="card-featured-content">
+					<a href="https://www.forbes.com/" target="_blank">
+						<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/forbes.jpg">
+					</a>
+					<a href="https://entrepreneur.com/" target="_blank">
+						<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/entrepreneur.jpg" style="width: 150px; top: 2px; position: relative">
+					</a>
+					<a href="https://www.producthunt.com/" target="_blank">
+						<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/product-hunt.jpg" style="width: 145px">
+					</a>
+					<a href="https://www.awwwards.com/" target="_blank">
+						<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/awwwards.jpg" style="width: 125px">
+					</a>
+					<a href="https://www.uruvelaa.com/" target="_blank">
+						<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/creativebloq.jpg" style="width: 120px">
+					</a>
+					<!-- <a href="https://www.codeinwp.com/" target="_blank">
+						<img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/who/codeinwp.jpeg" style="width: 100px;">
+					</a> -->
+					<a href="https://speckyboy.com/" target="_blank">
+						<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/speckyboy.jpg">
+					</a>
+
+				</div>
+			</div>
+
+	 </div>
+
+	 <div class="section section-do" id="whatwedo">
+		 <div class="points">
+			<div class="point point-floating-1"></div>
+			<div class="point point-floating-2"></div>
+
+			<div class="point point-floating-7"></div>
+			<div class="point point-floating-8"></div>
+			<div class="point point-floating-9"></div>
+		</div>
+		 <div class="container">
+			 <div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="title">Area of expertise</h2>
+						<div class="space-50"></div>
+				</div>
+				<div class="row">
+							<div class="col-md-4">
+								<div class="info">
+									<div class="icon icon-info icon-round icon-lg">
+											<i class="nc-icon nc-single-copy-04"></i>
+									</div>
+									<div class="description">
+											<h4 class="info-title">Learning & Training </h4>
+											<h5 class="desc">
+													Afterwards, we will teach you how to promote your website online, how to take advantage of social media, and how to measure the effectiveness of your website using web analytics software.
+											</h5>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="info">
+									<div class="icon icon-danger icon-round icon-lg">
+											<i class="nc-icon nc-palette"></i>
+									</div>
+									<div class="description">
+											<h4 class="info-title">Development & Design</h4>
+											<h5 class="desc">
+													We will then develop the website using the content you give us, optimise it for the search engines, and
+													put it live.Our graphic designers will put together a web design concept, and we will adjust the layout until both you and we are happy that it presents your business perfectly.
+											</h5>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-4">
+								<div class="info">
+									<div class="icon icon-success icon-round icon-lg">
+											<i class="nc-icon nc-spaceship"></i>
+									</div>
+									<div class="description">
+											<h4 class="info-title">Services</h4>
+											<h5 class="desc">
+													One of our experienced project managers will meet with you to plan the website. We will discuss marketing strategies, target market, points of difference, goals, and the anticipated size of the website. We will then provide you with an itemised quote.
+											</h5>
+									</div>
+								</div>
+							</div>
+					</div>
+		</div>
+	 </div>
+
+	 <div class="section section-technologies">
+		 <div class="points">
+			 <div class="point point-floating-1"></div>
+			 <div class="point point-floating-2"></div>
+			 <div class="point point-floating-3"></div>
+			 <div class="point point-floating-4"></div>
+		 </div>
+		 <div class="container">
+
+			 <div class="row">
+
+				 <div class="col-md-8 col-md-offset-2 text-center">
+							<h2 class="title">Our technologies</h2>
+							<h4 class="desc">
+								Our products are built on top of modern frameworks. Having the coded and the designed versions for the same framework.
+							</h4>
+					</div>
+					<br>
+					 <div class="col-sm-1 col-xs-3 col-sm-offset-2">
+						 <a href="https://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="Vue.js - The progressive javascript framework">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/vue.jpg">
+						 </a>
+					 </div>
+					 <div class="col-sm-1 col-xs-3">
+						 <a href="hhttps://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="Angular - One framework. Mobile &amp; desktop">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/angular.jpg">
+						 </a>
+					 </div>
+					 <div class="col-sm-1 col-xs-3">
+						 <a href="https://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="React - A JavaScript library for building user interfaces">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/react.jpg">
+						 </a>
+					 </div>
+					 <div class="col-sm-1 col-xs-3">
+						 <a href="https://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="Bootstrap - Most popular front-end component library">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/bootstrap.jpg">
+						 </a>
+					 </div>
+					 <div class="col-sm-1 col-xs-3">
+						 <a href="https://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="Sass - Powerful professional CSS extension language in the world">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/sass.jpg">
+						 </a>
+					 </div>
+					 <div class="col-sm-1 col-xs-3">
+						 <a href="https://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="Adobe Photoshop - Software for digital images manipulation">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/ps.jpg">
+						 </a>
+					 </div>
+					 <div class="col-sm-1 col-xs-3">
+						 <a href="https://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="Sketch - Digital design toolkit">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/sketch.jpg">
+						 </a>
+					 </div>
+					 <div class="col-sm-1 col-xs-3">
+						 <a href="https://www.uruvelaa.com" target="_blank" rel="tooltip" title="" data-original-title="Figma - Turn Ideas Into Products Faster">
+							 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/figma.jpg">
+						 </a>
+					 </div>
+				</div>
+			</div>
+		</div>
+	<div class="section section-products">
+		<div class="points">
+			<div class="point point-floating-3"></div>
+			<div class="point point-floating-4"></div>
+			<div class="point point-floating-5"></div>
+		</div>
+		<div class="container">
+			<div class="row">
+
+
+				<div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="title">Solutions for you</h2>
+						<h4 class="desc">
+								Our elite teams build apps, responsive websites, bots—any digital product that interacts with users—for the world’s leading companies. We cultivate expertise in every stage of product creation, resulting in extraordinary digital experiences.
+						</h4>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="points">
+						<div class="point point-floating-1"></div>
+						<div class="point point-floating-2"></div>
+						<div class="point point-floating-3"></div>
+						<div class="point point-floating-4"></div>
+					</div>
+
+					<div class="col-md-5">
+						<div class="ipad">
+							<div class="shadow"></div>
+							<div class="lid"></div>
+							<div class="screen">
+								<div id="carousel-kits" class="carousel slide" data-ride="carousel" data-interval="2500">
+
+									<!-- Indicators -->
+									<ol class="carousel-indicators">
+										<li data-target="#carousel-kits" data-slide-to="0" class=""></li>
+										<li data-target="#carousel-kits" data-slide-to="1" class=""></li>
+										<li data-target="#carousel-kits" data-slide-to="2" class="active"></li>
+									</ol>
+
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox">
+										<div class="item">
+											<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/nowuikit.jpg" alt="...">
+										</div>
+										<div class="item active left">
+											<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/materialkit.jpg" alt="...">
+										</div>
+										<div class="item next left">
+										 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/paperkit.jpg" alt="...">
+									 </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-5 col-md-offset-1">
+
+						<div class="info info-horizontal">
+							<div class="icon icon-success">
+								<i class="nc-icon nc-single-copy-04"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">UI Kits &amp; Example Pages</h4>
+								<p class="desc">
+									The easiest way to get started is to use one of our pre-built example pages. From landing pages to e-commerce or blog pages, you will be able jump start your development. Show your clients a quick prototype that can be made in minutes!
+								</p>
+							</div>
+						</div>
+
+						<div class="info info-horizontal">
+							<div class="icon icon-danger">
+								<i class="nc-icon nc-app"></i>
+							</div>
+							<div class="description">
+								<h4 class="info-title">Pre-Made Sections &amp; Elements</h4>
+								<p class="desc">
+									Build pages in no time using pre-made sections and elements! From headers to footers, you will be able to choose the best combination for your project.
+								</p>
+								<!-- <a href="https://www.creative-tim.com/bootstrap-themes/ui-kit?ref=new-presentation-page" target="_blank" class="btn">View UI Kits</a> -->
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="space-180"></div>
+
+				<div class="row">
+					<div class="points">
+						<div class="point point-floating-6"></div>
+						<div class="point point-floating-2"></div>
+						<div class="point point-floating-5"></div>
+						<div class="point point-floating-7"></div>
+						<div class="point point-floating-8"></div>
+						<div class="point point-floating-9"></div>
+					</div>
+
+					<div class="col-md-5">
+						<div class="info info-horizontal">
+									<div class="icon icon-info">
+											<i class="nc-icon nc-controller"></i>
+									</div>
+									<div class="description">
+											<h4 class="info-title">Easy to Use Websites Templates</h4>
+											<p class="desc">
+												Every element that you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in colour.
+											</p>
+									</div>
+							</div>
+
+							<div class="info info-horizontal">
+									<div class="icon icon-warning">
+											<i class="nc-icon nc-settings"></i>
+									</div>
+									<div class="description">
+											<h4 class="info-title">Fully Coded Dashboards</h4>
+											<p class="desc">
+												Using the our Admin Dashboards will save you large amount of time. You don't have to worry about customising the basic Bootstrap 4 design or generating new components.
+											</p>
+											<!-- <a href="./uruvelaa-developement.html" target="_blank" class="btn">View Admin Dashboards</a> -->
+									</div>
+
+							</div>
+
+					</div>
+
+					<div class="col-md-5 col-md-offset-1">
+						<div class="laptop">
+								<div class="shadow"></div>
+								<div class="lid"></div>
+								<div class="screen">
+									<div id="carousel-dashboards" class="carousel slide" data-ride="carousel" data-interval="4500">
+									<!-- Indicators -->
+										<ol class="carousel-indicators">
+											<li data-target="#carousel-dashboards" data-slide-to="0" class=""></li>
+											<li data-target="#carousel-dashboards" data-slide-to="1" class=""></li>
+											<li data-target="#carousel-dashboards" data-slide-to="2" class="active"></li>
+										</ol>
+
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner" role="listbox">
+											<div class="item">
+												<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/md-dashboard.jpg" alt="...">
+											</div>
+											<div class="item">
+												<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/nud-dashboard.jpg" alt="...">
+											</div>
+											<div class="item active">
+											 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/lbd-dashboard.jpg" alt="...">
+										 </div>
+										</div>
+									</div>
+								</div>
+								<div class="bottom">
+									<div class="keyboard"></div>
+									<div class="trackpad"></div>
+								</div>
+
+						</div>
+					</div>
+
+					<div class="points">
+						<div class="point point-floating-1"></div>
+						<div class="point point-floating-3"></div>
+						<div class="point point-floating-4"></div>
+					</div>
+
+			</div>
+
+			<div class="space-180"></div>
+
+		</div><!--   end container -->
+	</div><!--   end row -->
+
+	 <div class="section section-numbers" style="background-image:url(&#39;https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/who/map.png&#39;);">
+		 <div class="points">
+			 <div class="point point-floating-1"></div>
+			 <div class="point point-floating-2"></div>
+			 <div class="point point-floating-3"></div>
+			 <div class="point point-floating-4"></div>
+			 <div class="point point-floating-5"></div>
+			 <div class="point point-floating-6"></div>
+			 <div class="point point-floating-7"></div>
+			 <div class="point point-floating-8"></div>
+			 <div class="point point-floating-9"></div>
+		 </div>
+		<div class="container">
+
+			 <div class="row">
+					<div class="col-md-6 col-md-offset-3">
+					 <div class="info text-center">
+								<div class="icon icon-danger icon-circle icon-lg">
+										<i class="nc-icon nc-badge"></i>
+								</div>
+							 <div class="numbers">
+								 <div class="num">4</div>
+								 <div class="num">3</div>
+								 <div class="num">8</div>
+								 <div class="vir">,</div>
+								 <div class="num">7</div>
+								 <div class="num">2</div>
+								 <div class="num">7</div>
+							 </div>
+							 <h3 class="desc">Developers and Companies around the world using our products.</h3>
+						</div>
+				 </div>
+			 </div>
+		</div>
+	</div>
+
+	<div class="section section-team">
+		<div class="points">
+			<div class="point point-floating-7"></div>
+			<div class="point point-floating-8"></div>
+			<div class="point point-floating-9"></div>
+		</div>
+		<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="title">MEET URUVELAA DEVELOPMENT TEAM</h2>
+						<div class="space-50"></div>
+					 </div>
+				</div>
+				<div class="avatars">
+						<div class="avatar avatar-one" data-toggle="tooltip" data-placement="top" title="" data-original-title="FullStack Developer ">
+								
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/Pankaj.jpg">
+
+						</div>
+
+						<div class="avatar avatar-two" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Automation tester and API Designer">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/rahul.jpg" width="130 px" height="130 px" >
+								</a>
+						</div>
+
+						<div class="avatar avatar-three" data-toggle="tooltip" data-placement="top" title="" data-original-title="Chief financial officer">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/shikha.jpg" width="130 px" height="130 px">
+								</a>
+						</div>
+
+						<div class="avatar avatar-four" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Consultant and Marketing Excutive">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/shiv.jpg"  width="170 px" height="100 px">
+								</a>
+						</div>
+
+						<!-- <div class="avatar avatar-five" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="UI/UX Designer and .NET Developer">
+								<a href="https:https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/chandan.jpg">
+								</a>
+						</div> -->
+
+						<div class="avatar avatar-six" data-toggle="tooltip" data-placement="top" title="" data-original-title="Director of Sales and Marketing">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/subh.jpg">
+								</a>
+						</div>
+
+						<div class="avatar avatar-seven">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/pp.jpg" data-toggle="tooltip" data-placement="top" title="" data-original-title="MEAN STACK Developer">
+								</a>
+						</div>
+
+						<div class="avatar avatar-eight" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="UI/UX Designer and .NET Developer"  >
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/chandan.jpg" width="200 px" height="125 px" >
+								</a>
+						</div>
+
+						<div class="avatar avatar-nine" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Front-End Developer">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/akash.jpg" width="200 px" height="110 px" >
+								</a>
+						</div>
+
+						<div class="avatar avatar-ten" data-toggle="tooltip" data-placement="top" title="" data-original-title="Graphic designer(2D and 3D Animation">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/Vikash.jpg">
+								</a>
+						</div>
+
+						<div class="avatar avatar-eleven" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Co-Founder">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/sonalim.jpg">
+								</a>
+						</div>
+
+						<div class="avatar avatar-tw" data-toggle="tooltip" data-placement="top" title="" data-original-title="MEAN Stack Developer">
+								<a href="https://www.uruvelaa.com/">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/rajeev.jpg">
+								</a>
+						</div>
+
+						<div class="avatar avatar-tt" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="ReactJS Developer">
+								<a href="https://www.uruvelaa.com/#contact">
+										<img class="img img-raised" src="./Creative Tim - Fully coded UI Tools to create web apps_files/Manu2.jpg">
+								</a>
+						</div>
+					</div>
+			</div>
+	 </div>
+
+	 <div class="section section-who">
+
+			 <div class="container">
+				 <div class="row">
+					 <div class="col-md-8 col-md-offset-2 text-center">
+								<h2 class="title">Our teams help you reach business goals through agile software development.</h2>
+								<h4 class="desc">
+										Our Professionals worked for Some of awesome clients
+								</h4>
+						</div>
+				</div>
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card-featured">
+								<div class="card-featured-content">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/microsoft.jpg">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/vodafone.jpg">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/at.jpg" style="width:70px;">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/amazon.jpg" style="width: 90px">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/cisco.jpg" style="width: 75px;">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/sales.jpg" style="width:75px;">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/ibm.jpg" style="width:80px;">
+									<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/samsung.jpg">
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="space-50"></div>
+	 </div>
+
+	 <div class="section section-giving section-black">
+			<div class="universities">
+				 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/harvard.png">
+				 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/mit.png" style="width:100px;">
+				 <img src="./Creative Tim - Fully coded UI Tools to create web apps_files/srm.png">
+			</div>
+		 <div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1 text-center">
+					<h2 class="title text-white">Giving Back to the Community</h2>
+					<h4 class="desc text-grey">
+						Here at Creative Tim we belive in the power of giving back! We are proud to sponsor schools, universities, hackathons and be part of events where we can teach people how to become better developers, designers and entrepreneurs.
+					</h4>
+
+				</div>
+			</div>
+			<div class="row">
+				 <div class="col-md-4">
+						 <img class="img-raised rounded img-fluid" src="./Creative Tim - Fully coded UI Tools to create web apps_files/giveback1.jpg" rel="tooltip" title="" data-original-title="Organisers of the 1st Dribbble Meetup in Romania.">
+				 </div>
+				 <div class="col-md-4">
+						<img class="img-raised rounded img-fluid" src="./Creative Tim - Fully coded UI Tools to create web apps_files/giveback6.jpg" rel="tooltip" title="" data-original-title="Presentation about building an online business for AIESEC Youth Forum.">
+				</div>
+				<div class="col-md-4">
+					 <img class="img-raised rounded img-fluid" src="./Creative Tim - Fully coded UI Tools to create web apps_files/giveback3.jpg" rel="tooltip" title="" data-original-title="Mentors and participants at Startup Weekend in Piatra Neamt 2017.">
+			 </div>
+
+			 <div class="col-md-3">
+					<img class="img-raised rounded img-fluid" src="./Creative Tim - Fully coded UI Tools to create web apps_files/giveback9.jpg" rel="tooltip" title="" data-original-title="Sponsors and mentors at Startup Weekend Zurich 2016.">
+			</div>
+
+			<div class="col-md-3">
+				 <img class="img-raised rounded img-fluid" src="./Creative Tim - Fully coded UI Tools to create web apps_files/giveback5.jpg" rel="tooltip" title="" data-original-title="Sponsors and mentors at Startup Weekend Iasi 2018.">
+			</div>
+
+			<div class="col-md-3">
+				 <img class="img-raised rounded img-fluid" src="./Creative Tim - Fully coded UI Tools to create web apps_files/giveback4.jpg" rel="tooltip" title="" data-original-title="Sponsors at Startup Weekend Piatra Neamt 2017.">
+			</div>
+
+			<div class="col-md-3">
+				 <img class="img-raised rounded img-fluid" src="./Creative Tim - Fully coded UI Tools to create web apps_files/giveback2.jpg" rel="tooltip" title="" data-original-title="Gift Cards for students and participants.">
+			</div>
+		 </div>
+
+			<div class="space-110">
+
+			</div>
+			<!-- <div class="row">
+				<div class="col-md-4 col-sm-offset-0">
+					<h3>Conferences</h3>
+					<div class="items">
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/dribbble.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="http://blog.creative-tim.com/web-design/first-bucharest-dribbble-meetup-thoughts-impressions/" target="_blank">Dribbble Meetup</a>
+								<div class="text text-left">Hosted the first 2 Dribbble meetups in Romania</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/swpn.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="http://communities.techstars.com/romania/piatra-neamt-romania/startup-weekend/11523" target="_blank">Startup Weekend Piatra Neamt</a>
+								<div class="text text-left">TechStars Hackathon</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/swb.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="http://communities.techstars.com/romania/bucharest/startup-weekend/10521" target="_blank">Startup Weekend Bucharest</a>
+								<div class="text text-left">TechStars Hackathon</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-offset-0">
+					<h3>Community Help</h3>
+					<div class="items">
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/cheatsheet.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="https://www.creative-tim.com/bootstrap-cheat-sheet" target="_blank">BS4 Cheat Sheet</a>
+								<div class="text text-left">Bootstrap Cheat Sheet for Developers</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/youtube-open.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w" target="_blank">YouTube Tutorials</a>
+								<div class="text text-left">How to build web interfaces with HTML</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/anatomy.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="https://medium.freecodecamp.org/the-anatomy-of-a-bootstrap-dashboard-that-earns-1-000s-each-month-ed3404010d25" target="_blank">Anatomy of a Bootstrap Dashboard</a>
+								<div class="text text-left">Case study for web developers</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-offset-0">
+					<h3>Open Source</h3>
+					<div class="items">
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/mk-open.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="https://github.com/creativetimofficial/material-kit" target="_blank">Material Kit</a>
+								<div class="text text-left">Bootstrap 4 Material Design UI Kit</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/nuk-open.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="https://github.com/creativetimofficial/now-ui-kit" target="_blank">Now UI Kit</a>
+								<div class="text text-left">Bootstrap 4 UI Kit by Invision</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="photo">
+								<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/md-open.jpg">
+							</div>
+							<div class="info">
+								<a class="title text-left" href="https://github.com/creativetimofficial/material-dashboard" target="_blank">Material Dashboard</a>
+								<div class="text text-left">Bootstrap 4 Admin Dashboard</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div> -->
+		</div>
+	 </div>
+
+
+	 <div class="section section-map section-black">
+
+		<div class="container">
+				<div class="col-lg-5 col-md-10">
+				 <div class="card card-contact card-raised">
+						<div class="card-body">
+							 <div class="info info-horizontal">
+								 <div class="icon icon-primary">
+										<i class="nc-icon nc-chat-round"></i>
+								 </div>
+								 <div class="description">
+									 <h5 class="info-title">We are here to help</h5>
+									 <a href="../index.html#contact" class="btn">Contact Us </a>
+								 </div>
+							 </div>
+
+							 <div class="info info-horizontal">
+								 <div class="icon icon-primary">
+										 <i class="nc-icon nc-building"></i>
+								 </div>
+								 <div class="description">
+										 <h5 class="info-title">Visit us at the HQ</h5>
+										 <p> Marathahalli,<br>
+												 Banglore, Karnataka
+										 </p>
+								 </div>
+							 </div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<div class="image-container">
+						<img src="./Creative Tim - Fully coded UI Tools to create web apps_files/world2.png" class="map" alt="">
+					</div>
+				</div>
+
+		 </div>
+ </div>
+</div>
+<footer class="footer footer-black">
+<div class="container">
+		<nav class="pull-left">
+				<ul>
+						<li>
+								<a href="https://www.uruvelaa.com" target="_blank">
+										Terms &amp; Conditions
+								</a>
+						</li>
+						<li>
+								<a href="https://www.uruvelaa.com" target="_blank">
+										Licenses
+								</a>
+						</li>
+						<li>
+								<a href="https://www.uruvelaa.com" target="_blank">
+										FAQ
+								</a>
+						</li>
+						<li>
+								<a href="https://www.uruvelaa.com" target="_blank">
+										Affiliates
+								</a>
+						</li>
+						<li>
+							<a href="https://www.uruvelaa.com" target="_blank">
+								 Blog
+							</a>
+						</li>
+				</ul>
+		</nav>
+		<div class="pull-right">
+				<div class="copyright">
+						© 2018 <a target="_blank" href=""> Uruvelaa Solutions</a>, page made by <a target="_blank" href="https://www.uruvelaa.com">Uruvelaa Development Team</a>
+					</div>
+					<div class="social-area pull-right">
+							<a class="btn btn-social btn-facebook btn-simple" href=https://www.facebook.com/Uruvelaa-Solutions-1523206741142114"">
+								<img src="../Creative Tim _ Tools to build better websites_files/facebook.png" alt="" height="35px" width="30px" >
+							</a>
+							<a class="btn btn-social btn-twitter btn-simple" href="https://twitter.com/uruvelaa">
+								<img src="../Creative Tim _ Tools to build better websites_files/twitter.png" alt="" height="35px" width="30px" >                                     
+							</a>
+							</div>
+		</div>
+
+</div>
+</footer>
+
+        <!--  jQuery and Bootstrap core files    -->
+        <script src="./Creative Tim - Fully coded UI Tools to create web apps_files/jquery.js.download" type="text/javascript"></script>
+        <script src="./Creative Tim - Fully coded UI Tools to create web apps_files/bootstrap.min.js.download" type="text/javascript"></script>
+
+        <!--  Get Shit Done Kit PRO Core javascript 	 -->
+        <script src="./Creative Tim - Fully coded UI Tools to create web apps_files/gsdk.js.download"></script>
+
+        <script type="text/javascript">
+
+        $(document).ready(function(){
+            // the body of this function is in assets/js/now-ui-kit.js
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        });
+        </script>
+    
+
+<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;" src="./Creative Tim - Fully coded UI Tools to create web apps_files/rcj-99d43ead6bdf30da8ed5ffcb4f17100c.html"></iframe><div id="ads"></div></body></html>
